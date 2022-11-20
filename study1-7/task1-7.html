@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>お問い合わせフォーム</title>
+    </head>
+    <body>
+        <h3><b>お問い合わせフォーム</b></h3>
+        <form action="####.php" method="post">
+            <p><label>お名前</label><input type="text" name="ful_name" placeholder="山田　太郎"></p>
+            <p><label>電話番号</label><input type="number" name="tel" placeholder="090-〇〇〇〇-〇〇〇〇"></p>
+            <p><label>メールアドレス</label><input type="email" name="email" placeholder="△△△△＠〇〇.jp"></p>
+            <p>地域</p>
+            <input id="hokkaidou" type="radio" name="address" value="hokkaidou"><label for="hokkaidou">北海道</label>
+            <input id="touhoku" type="radio" name="address" value="touhoku"><label for="touhoku">東北</label>
+            <input id="kanntou" type="radio" name="address" value="kanntou"><label for="kanntou">関東</label>
+            <input id="tyuubu" type="radio" name="address" value="tyuubu"><label for="tyuubu">中部</label>
+            <input id="kinnki" type="radio" name="address" value="kinnki"><label for="kinnki">近畿</label>
+            <input id="tyuugoku" type="radio" name="address" value="tyuugoku"><label for="tyuugoku">中国</label>
+            <input id="sikoku" type="radio" name="address" value="sikoku"><label for="sikoku">四国</label>
+            <input id="kyuusyuuokinawa" type="radio" name="address" value="kyuusyuuokinawa"><label for="kyuusyuuokinawa">九州・沖縄</label>
+            <p>年代</p>
+            <input id="age10" type="radio" name="age" value="10代"><label for="age10">10代</label>
+            <input id="age20" type="radio" name="age" value="20代"><label for="age20">20代</label>
+            <input id="age30" type="radio" name="age" value="30代"><label for="age30">30代</label>
+            <input id="age40" type="radio" name="age" value="40代"><label for="age40">40代</label>
+            <input id="age50" type="radio" name="age" value="50代"><label for="age50">50代</label>
+            <input id="age60" type="radio" name="age" value="60代"><label for="age60">60代</label>
+            <p>肌悩み</p>
+            <input id="乾燥" type="checkbox" name="problem" value="乾燥"><label for="乾燥">乾燥</label>
+            <input id="シワ" type="checkbox" name="problem" value="シワ"><label for="シワ">シワ</label>
+            <input id="たるみ" type="checkbox" name="problem" value="たるみ"><label for="たるみ">たるみ</label>
+            <input id="シミ" type="checkbox" name="problem" value="シミ"><label for="シミ">シミ</label>
+            <input id="くすみ" type="checkbox" name="problem" value="くすみ"><label for="くすみ">くすみ</label>
+            <input id="ニキビ" type="checkbox" name="problem" value="ニキビ"><label for="ニキビ">ニキビ</label>
+            <p>お問い合せ内容<select name="naiyou"></p>
+                <option value="kaiyaku">解約</option>
+                <option value="hennkou">変更</option>
+                <option value="kakuninn">確認</option>
+                <option value="sonota">その他</option>
+            </select>
+            <p>入力欄<br><textarea></textarea></p>
+            <button type="button" name="send">送信ボタン</button>
+        </form>
+    </body>
+</html>

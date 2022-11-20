@@ -1,0 +1,29 @@
+header,footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.zone{
+    background-color: lightgray;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 70px;
+}
+.l-zone{
+    background: linear-gradient(to bottom,aqua,rgb(240, 199, 240));
+    height: 200px;
+    width: 200px;
+}
+.c-zone{
+    background: linear-gradient(to left,aquamarine,rgb(248, 246, 140),white);
+    height: 200px;
+    width: 200px;
+}
+.r-zone{
+    background: linear-gradient(to top,orange,blue);
+    height: 200px;
+    width: 200px;
+}

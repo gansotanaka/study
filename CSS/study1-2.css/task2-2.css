@@ -1,0 +1,35 @@
+/* body */
+body{
+    background-color: #9999;
+    margin: 2%;
+    width: 100%;
+    height: 100%;  
+}
+ol li a{
+    text-decoration: none;
+}
+ol li{
+    margin: 10% 87% 10% 2%;
+}
+.main{
+    list-style: none;
+    background-color: pink;
+    border: 15px solid; 
+    border-color: yellow;
+    margin: 0% 5%;
+    width: 50%;
+    height: auto;
+}  
+.area1{
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+}
+.area2{
+    color: white;
+    background: linear-gradient(to right,blue,rgb(107, 243, 43));
+}
+.area3{
+    color: white;
+    background: linear-gradient(to top left,red,orange,yellow);
+}

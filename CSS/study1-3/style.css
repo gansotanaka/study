@@ -1,0 +1,33 @@
+header{
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+}
+.main{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-content{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.center-content{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+.right-content{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+footer{
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+}
